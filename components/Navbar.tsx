@@ -20,11 +20,11 @@ const Navbar = () => {
     <nav className=" max-w-[1250px] mt-[40px] mx-auto flex justify-between items-center">
       <div className="logo flex items-center justify-center gap-3">
         <Image src="/icons/logo.svg" alt="logo" width={42} height={42} />
-        <span>Savory</span>
+        <span className="text-2xl font-bold">Savory</span>
       </div>
 
 
-      <div className="flex items-center gap-10 ">
+      <div className="flex items-center gap-10 font-opensans text-white/50 font-medium text-base ">
         {navItems.map((item) => (
           <a href={item.href} key={item.label}>
             {item.label}
