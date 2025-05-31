@@ -56,7 +56,7 @@ color: #ffffff;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: var(--font-geist-karla);
+    font-family: var(--font-playfair);
   }
 
   
@@ -65,7 +65,14 @@ color: #ffffff;
   button {
     @apply cursor-pointer;
   }
-  h1 {
-    @apply -tracking-[2px];
+ 
+}
+@layer components {
+  .heading-xl {
+    @apply text-white text-[80px] font-normal leading-[110px];
+  }
+  .p-base {
+    @apply text-white/60 text-base font-normal font-opensans leading-[30px]
   }
 }
+

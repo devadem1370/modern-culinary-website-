@@ -5,11 +5,11 @@ import React from "react";
 const Home = () => {
   return (
     <main className=" w-full flex mt-[90px]">
-      <section className="ledt  w-1/2  ">
+      <section className="ledt  w-[85%]  ">
         <span className="px-5 py-[3px] !w-20px items-center justify-center outline-1 outline-offset-[-1px] outline-white/40 rounded-2xl ">
           Culinary
         </span>
-        <h1 className="text-white text-[74px] mt-[55px]">
+        <h1 className="text-white text-[80px] mt-[55px]">
           Elevate Your Culinary Experience
         </h1>
 
