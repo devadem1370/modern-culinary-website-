@@ -71,6 +71,9 @@ color: #ffffff;
   .heading-xl {
     @apply text-white text-[80px] font-normal leading-[110px];
   }
+  .title-xl{
+    @apply  text-white text-2xl font-semibold font-playfair leading-[33px]
+  }
   .p-base {
     @apply text-white/60 text-base font-normal font-opensans leading-[30px]
   }
